@@ -10,4 +10,4 @@ if tv_show == "The Wire":
 elif tv_show == "The Sopranos":
     print("A GOAT show")
 else:
-    print("Get some help, man")
+    print("Get some help man!")
