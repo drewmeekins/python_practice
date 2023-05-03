@@ -22,7 +22,9 @@
 
 my_bill = float(input("What was the bill?: "))
 number_of_people = int(input("How many people at the table?: "))
-answer = my_bill / number_of_people
+tip = float(input("What percentage would you like to tip?: "))
+bill_total = my_bill * (1 + (tip/100))
+answer = bill_total/ number_of_people
 answer = round(answer, 2)
 
 print("You all owe", answer)
