@@ -7,8 +7,8 @@
 
 print("Let's play Rock Paper Scissors!")
 
-player_1_move = input("Player 1, select Rock, Paper, or Scissors as a move")
-player_2_move = input("Player 2, select Rock, Paper, or Scissors as a move")
+player_1_move = input("Player 1, select Rock, Paper, or Scissors as a move: ")
+player_2_move = input("Player 2, select Rock, Paper, or Scissors as a move: ")
 
 # Rock
 if player_1_move == "Rock" and player_2_move == "Rock":
