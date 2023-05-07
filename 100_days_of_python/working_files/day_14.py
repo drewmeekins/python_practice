@@ -1,7 +1,7 @@
 # rock paper scissors game
 
 # Hides input from each player
-from getpass import getpass as input
+# from getpass import getpass as input
 
 
 
@@ -24,7 +24,13 @@ elif player_1_move == "Paper" and player_2_move == "Rock":
     print(f"Player 1 Wins! Player 1 selected {player_1_move} and Player 2 selected {player_2_move}")
 elif player_1_move == "Paper" and player_2_move == "Scissors":
     print(f"Player 2 Wins! Player 2 selected {player_2_move} and Player 2 selected {player_1_move}")
-
+# Scissors
+elif player_1_move == "Scissors" and player_2_move == "Scissors":
+    print(f"Draw! Player 1 selected {player_1_move} and Player 2 selected {player_2_move}")
+elif player_1_move == "Scissors" and player_2_move == "Paper":
+    print(f"Player 1 Wins! Player 1 selected {player_1_move} and Player 2 selected {player_2_move}")
+elif player_1_move == "Scissors" and player_2_move == "Rock":
+    print(f"Player 2 Wins! Player 2 selected {player_2_move} and Player 2 selected {player_1_move}")
 else:
     print(f"Player 2 Wins! Player 2 selected {player_2_move} and Player 2 selected {player_1_move}")
 
