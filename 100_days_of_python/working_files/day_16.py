@@ -13,7 +13,7 @@ while True:
     print("Adding up the numbers!")
     counter += answer
     print(f"Current total is, {counter}")
-    add_another = input("Add another?: ")
-    if add_another == "no":
+    add_another = input("Add another? (y/n): ")
+    if add_another == "n":
         break
 print(f"Your grand total is {counter}. Goodbye!")
